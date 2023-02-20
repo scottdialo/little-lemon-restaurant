@@ -22,10 +22,7 @@
   margin-right: 20px;
 }
 .navLink:hover {
-  border-bottom: 3px solid #f4ce14;
-}
-.navLink:visited {
-  color: #495e57;
+  color: #f4ce14;
 }
 
 .main-nav .logo-anchor:hover {
@@ -139,10 +136,39 @@ footer {
   margin-bottom: 1rem;
   margin-top: 3rem;
 }
-
+a:visited {
+  color: #000;
+}
 .footer-logo {
   width: 70px;
   margin-right: -150px;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: flex;
+}
+.footer-link:visited {
+  color: #000;
+}
+.footer-link:hover {
+  color: #f4ce14;
+}
+.contact,
+.social-media {
+  list-style-type: none;
+}
+.contact li {
+  margin-bottom: 1rem;
+}
+.contact li a {
+  text-decoration: none;
+}
+.contact li a:visited {
+  color: #000;
+}
+.social-media li a:visited {
+  color: #000;
 }
 
 div .social-media {
@@ -150,6 +176,28 @@ div .social-media {
   gap: 1rem;
 }
 
+/* testimonial styling */
+.review-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.fa-solid {
+  color: #f4ce14;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+margin-top: 4rem;
+}
+.testimonial-title {
+  text-align: center;
+}
+.review-box {
+  text-align: center;
+  margin: 0 auto;
+}
 /* mobile nav styling */
 .mobile-nav li a:hover {
   border-bottom: 3px solid #f4ce14;
