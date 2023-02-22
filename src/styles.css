@@ -101,8 +101,7 @@
 }
 .week-special-container img,
 p {
-  margin-bottom: 15px;
-  width: 300px;
+  width: 25rem;
 }
 
 .week-special-container img {
@@ -215,18 +214,41 @@ div .social-media {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  height: 75vh;
 }
 .left-section {
   margin: 0 auto;
 }
+.right-section {
+  display: flex;
+  gap: 1rem;
+}
 .ourStory,
-p {
+.content {
   text-align: center;
+}
+.left-section .content {
+  line-height: 35px;
+  width: 25rem;
+}
+.city {
+  font-weight: bold;
 }
 .right-section img {
   height: 300px;
   width: 250px;
   border-radius: 10px;
+}
+.founder2 {
+  position: absolute;
+  bottom: 390px;
+  right: 250px;
+}
+
+.credit {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 /* mobile nav styling */
 .mobile-nav li a:hover {
